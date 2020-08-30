@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lyrics Search Engine</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main id="content" class="content">
+            <h1>Song Lyrics Search</h1>
+
+            <div class="container">
+                    <div id="search" class="search">
+                            <h2>Search</h2>
+                            <p>Search by song and artist:</p>
+                            <p class="mandatory"><span> * </span>Mandatory</p>
+                            <form action="#" id="search-form">
+                                <div class="input">
+                                    <label for="artist">Artist: <span>*</span></label>
+                                    <input type="text" id="artist" placeholder="Artist">
+                                </div>
+                                <div class="input">
+                                    <label for="song">Song: <span>*</span></label>
+                                    <input type="text" id="song" placeholder="Song Name">
+                                </div>
+
+                                <div class="input send">
+                                    <input type="submit" value="Search">
+                                </div>
+                                <div id="messages"></div>
+                            </form>
+                    </div>
+                    <div class="lyric">
+                            <h2>Song:</h2>
+                            <div id="result"></div>
+                    </div>
+            </div>
+    </main>
+
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
