@@ -24,6 +24,12 @@ h2 {
     height: 100%;
     padding: 20px;
 }
+@media (max-height: 375px){
+    input{
+     width: 30px;   
+    }
+}
+
 @media (min-width:768px) {
     .container {
         display: flex;
