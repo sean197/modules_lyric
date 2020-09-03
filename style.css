@@ -25,8 +25,9 @@ h2 {
     padding: 20px;
 }
 @media (max-height: 375px){
-    input{
-     width: 30px;   
+   
+    #artist, #song {
+     width:30px;   
     }
 }
 
