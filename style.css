@@ -24,7 +24,7 @@ h2 {
     height: 100%;
     padding: 20px;
 }
-@media (max-height: 375px){
+@media (max-width: 420px){
    
     #artist, #song {
      width:30px;   
